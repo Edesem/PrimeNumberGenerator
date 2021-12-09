@@ -51,11 +51,13 @@ int main(void)
 
 				if (prime == divider && remainder == 0) // Checks if the number is prime, if yes it prints it and then returns the line
 				{
-						printf("%i\n", prime);
+						printf("%i ", prime);
 						counter++;
 				}
 
 				divider = 2; // This resets the divider number for each prime (variable) number
 
 		}
+
+		printf("\n");
 }
